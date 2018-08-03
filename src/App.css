@@ -2,13 +2,48 @@
   width: 100%!important;
 }
 .jumbotron.jumbotron-fluid {
-  background-color: tomato;
+  background-image: url('./images/space5.jpg');
+  color: #fff;
+  border-bottom: 25px solid orange;
 }
 #bannerstrip {
   height: 30px;
   background-color: #fff;
 }
+.App1 {
+  padding: 2.5em;
+  list-style: none;
+  border-bottom: 20px solid orange;
+}
+.App1 li{
+  list-style: none;
+  font-size: 30px;
+  font-style: italic;
+  text-transform: camelCase;
 
+}
+.box {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  border: 2px solid #00FF7F;
+}
+.box2 {
+  float: left;
+  width: 200px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 0;
+}
+.box3 {
+  float: right;
+  width: 200px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 2.5em;
+}
 /*Body{
   width: 100%;
   margin: 0 auto;

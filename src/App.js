@@ -9,13 +9,24 @@ import BlockLevelButton from './components/blocklevelbutton';
 import Jumbotronc from './components/jumbotronc';
 import ModalExample from './ModalExample';
 import TextContent from './components/textcontent';
+import Collapsecomp from './Collapsecomp';
+import Alerts from './components/alerts';
+import Carouselz from './Carouselz';
+import CarouselzDark from './CarouselzDark';
+import logo from './images/space1.jpg';
+
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Button1 />
+        <img src={logo} className="App-logo" alt="logo" />
+        <Alerts />
+        <Collapsecomp />
         <br />
+        <Carouselz />
         <br/>
+        <CarouselzDark />
+        <br />
         <Buttonoutline />
         <br />
         <br />
