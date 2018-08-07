@@ -44,6 +44,20 @@
   margin: 0 auto;
   padding: 2.5em;
 }
+.FancyBorder {
+  padding: 10px 10px;
+  border: 10px solid;
+}
+.FancyBorder-custom {
+  border-color: #00FF7F;
+}
+
+.Dialog-title {
+  margin: 0;
+}
+.Dialog-message {
+  font-size: larger;
+}
 /*Body{
   width: 100%;
   margin: 0 auto;

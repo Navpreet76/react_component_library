@@ -1,0 +1,40 @@
+{
+    "name": "Product",
+    "properties":
+    {
+        "id": 
+        {
+            "type": "number",
+            "description": "Product Identifier",
+            "required": "true",
+            "stocked": "true"
+        },
+        "name":
+        {
+            "description": "Name of the Product",
+            "type": "string",
+            "required": "true"
+        },
+        "category":
+        {
+            "description": "What category the product is",
+            "type": "string",
+            "price": "double"
+
+        },
+        "price":
+        {
+            "type": "number",
+            "minimum": 0,
+            "required": "true"
+        },
+        "tags":
+        {
+            "type": "array",
+            "items":
+            {
+                "type": "string"
+            }
+        }
+    }
+}

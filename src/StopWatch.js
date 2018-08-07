@@ -37,7 +37,7 @@ class StopWatch extends React.Component {
     const {lapse, running} = this.state
     const buttonStyles = {
       border: '1px solid #ccc',
-      background: 'aquamarine',
+      background: 'orangered',
       fontSize: '2em',
       padding: 15,
       margin: 5,
